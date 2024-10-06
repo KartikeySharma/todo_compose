@@ -68,9 +68,12 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation("androidx.compose.ui:ui:1.7.3")
+    implementation("androidx.compose.material:material:1.7.3")
+
     // room
     implementation("androidx.room:room-ktx:2.6.1")
-    kapt("androidx.room:room-compiler:2.5.2")
+    kapt("androidx.room:room-compiler:2.6.1")
     androidTestImplementation("androidx.room:room-testing:2.6.1")
     // Lifecycle components
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")
